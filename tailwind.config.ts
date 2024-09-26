@@ -1,5 +1,6 @@
 import type { Config } from "tailwindcss";
 import { screens } from "./theme/screens";
+import { colors } from "./theme/colors";
 const config: Config = {
   content: [
     "./pages/**/*.{js,ts,jsx,tsx,mdx}",
@@ -9,6 +10,7 @@ const config: Config = {
   theme: {
     extend: {
       screens,
+      colors,
       zIndex: {
         "100": "100",
         "200": "200",

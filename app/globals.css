@@ -6,3 +6,9 @@
 html {
   background: #fff8f4;
 }
+
+.poppins {
+  font-family: "Poppins", sans-serif;
+  font-weight: 800;
+  font-style: normal;
+}
