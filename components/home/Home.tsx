@@ -36,7 +36,7 @@ export default function Home() {
         >
           hi
         </ComponentWrapper>
-        <button onClick={takePhoto} className="fixed bottom-5 left-5">
+        <button onClick={takePhoto} className="fixed bottom-5 left-5W">
           Take photo
         </button>
       </motion.div>
